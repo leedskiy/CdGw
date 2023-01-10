@@ -108,6 +108,25 @@ body{
   z-index: -77;
 }
 
+/* ---scrollbar------------------------------------------------------- */
+
+::-webkit-scrollbar{
+  width: 17px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(255, 144, 220, 0.5);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
 /* ---header------------------------------------------------------- */
 
 .header {
