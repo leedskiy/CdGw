@@ -361,7 +361,6 @@ body{
   .header__switch{
     height: 30px;
   }
-
   .header__burger{
     display: block;
   }
@@ -755,6 +754,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  padding: 30px;
   border: 1px solid red;
 }
 .block2__container {
@@ -763,6 +763,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;  
+  width: 80%;
 }
 .block2__text {
 }
@@ -773,75 +774,63 @@ body{
 }
 .block2__card1 {
 }
-.card1 {
+.b2-card1 {
 }
-.card {
+.b2-card {
 }
-.card1__photo {
+.b2-card1__photo {
 }
-.card1__name {
+.b2-card1__name {
 }
-.name {
+.b2-name {
 }
 .block2__card2 {
 }
-.card2 {
+.b2-card2 {
 }
-.card2__photo {
+.b2-card2__photo {
 }
-.card2__name {
+.b2-card2__name {
 }
-.block2__card3 {
+.b2-block2__card3 {
 }
-.card3 {
+.b2-card3 {
 }
-.card3__photo {
+.b2-card3__photo {
 }
-.card3__name {
+.b2-card3__name {
 }
-.block2__card4 {
+.b2-block2__card4 {
 }
-.card4 {
+.b2-card4 {
 }
-.card4__photo {
+.b2-card4__photo {
 }
-.card4__name {
+.b2-card4__name {
 }
-.block2__card5 {
+.b2-block2__card5 {
 }
-.card5 {
+.b2-card5 {
 }
-.card5__photo {
+.b2-card5__photo {
 }
-.card5__name {
+.b2-card5__name {
 }
-.block2__card6 {
+.b2-block2__card6 {
 }
-.card6 {
+.b2-card6 {
 }
-.card6__photo {
+.b2-card6__photo {
 }
-.card6__name {
+.b2-card6__name {
 }
-.block2__card7 {
+.b2-block2__card7 {
 }
-.card7 {
+.b2-card7 {
 }
-.card7__photo {
+.b2-card7__photo {
 }
-.card7__name {
-}
-.block3 {
-}
-.block3__container {
-}
-.block3__text {
-}
-.block3__title {
-}
-.block3__video {
-}
-.block3__opening {
+.b2-card7__name {
 }
 .footer {
 }
