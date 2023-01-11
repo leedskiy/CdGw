@@ -190,6 +190,7 @@ body{
   border-style: solid;
   border-color: rgb(255, 144, 220);
   border-radius: 5px;
+  z-index: -33;
 }
 
 .header__link:before{
@@ -450,6 +451,7 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 7s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block1__container:after{
@@ -466,6 +468,7 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 7s;
   opacity: 30%;
+  z-index: -33;
 }
 
 @keyframes b1-cont2-ver-anim {
@@ -504,6 +507,7 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 7s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block1__container2:after{
@@ -521,6 +525,7 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 7s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block1__text1 {
@@ -575,6 +580,7 @@ body{
   border-style: solid;
   border-color: rgba(255, 144, 220, 0.5);
   border-radius: 5px;
+  z-index: -33;
 }
 
 .title:before{
@@ -650,6 +656,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block1__left:after{
@@ -668,6 +675,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block1__img {
@@ -923,6 +931,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .b2-photo:after{
@@ -941,6 +950,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .b2-card1__name {
@@ -1167,6 +1177,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .b3-photo:after{
@@ -1185,6 +1196,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .b3-card1__name {
@@ -1212,6 +1224,7 @@ body{
   border-style: solid;
   border-color: rgb(255, 144, 220);
   border-radius: 5px;
+  z-index: -33;
 }
 
 .b3-link:before{
@@ -1324,7 +1337,7 @@ body{
   justify-content: center;
   width: 100vw;
   min-height: 50vh;
-  margin: 70px 0;
+  margin: 70px 0 0 0;
   padding: 0 30px;
 }
 
@@ -1400,6 +1413,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block4__video:after{
@@ -1418,6 +1432,7 @@ body{
   animation-duration: 7s;
   animation-delay: 1.2s;
   opacity: 30%;
+  z-index: -33;
 }
 
 .block4__opening {
@@ -1524,11 +1539,68 @@ body{
     left: 103.7%;
   }
 }
+
 /* ---footer------------------------------------------------------- */
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 100vw;
+  margin: 70px 0 0 0;
+  padding: 0 30px;
 }
+
 .footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 17px 0;
 }
+
 .footer__text {
+  font-size: 25px;
+  position: relative;
+  padding: 5px 7px;
 } 
+
+.footer__text a{
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgba(255, 144, 220, 0.7);
+}
+
+.footer__text:before, .footer__text:after{
+  content: '';
+  position: absolute;
+  transition: transform .7s ease;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-color: rgb(255, 144, 220);
+  border-radius: 5px;
+  z-index: -33;
+}
+
+.footer__text:before{
+  border-width: 2px 0 2px 0;
+  transform:  scaleX(0);
+}
+
+.footer__text:after{
+  border-width: 0 2px 0 2px;
+  transform:  scaleY(0);
+}
+
+.footer__text:hover:before, .footer__text:hover:after{
+  transform:  scale(1, 1);
+}
+
+@media(max-width: 426px){
+  .footer__text {
+    font-size: 20px;
+  }
+}
