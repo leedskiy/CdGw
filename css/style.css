@@ -1161,6 +1161,7 @@ body{
   align-items: center;
   transition-duration: 0.3s;
   width: 200px;
+  position: relative;
 }
 
 .b3-photo:hover{
