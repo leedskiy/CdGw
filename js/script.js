@@ -113,7 +113,7 @@ function changeTheme(theme) {
         b3Photos.forEach(elem => {
             elem.style.cssText = `
                 border: 4px solid rgb(255, 255, 255);
-                border-radius: 10px;
+                border-radius: 14px;
             `;
         })
 
@@ -218,7 +218,7 @@ function changeTheme(theme) {
         b3Photos.forEach(elem => {
             elem.style.cssText = `
                 border: 4px solid rgb(0, 0, 0);
-                border-radius: 10px;
+                border-radius: 14px;
             `;
         })
 
