@@ -273,14 +273,11 @@ body{
   display: block;
   transition: all 0.3s;
   background-color: rgb(0, 0, 0);
-  position: relative;
-}
-
-.burger__bar{
   width: 30px;
   height: 4px;
   border-radius: 5px;
   margin: 7px auto;
+  position: relative;
 }
 
 @keyframes burg-b-el1-a {
